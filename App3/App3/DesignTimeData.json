@@ -1,0 +1,43 @@
+﻿{
+	"DesignTimeDataFilePage.xaml": [
+					{ "Name": "John", "Age":29, "Photo":"icon.png" },
+					{ "Name": "Pam", "Age":32, "Photo":"friend_thumbnail_31.jpg" },
+					{ "Name": "Cassy", "Age":58, "Photo":"friend_thumbnail_93.jpg" },
+					{ "Name": "Susan", "Age":29, "Photo":"friend_thumbnail_75.jpg" }
+				],
+    "GroupedListView.xaml" : {
+        "Departments*" : 
+        [
+          {
+            "Name": "Sales",
+            "Items": [
+              {
+                "FirstName": "John",
+                "Photo": "friend_thumbnail_27.jpg"
+              },
+              {
+                "FirstName": "Cassy",
+                "Photo": "friend_thumbnail_93.jpg"
+              }
+
+            ]
+          }, 
+            {  
+                "Name":"Accounts",
+                "Items": [
+                    { "FirstName": "Susan", "Photo": "friend_thumbnail_75.jpg" },
+                    { "FirstName": "Pam", "Photo": "friend_thumbnail_31.jpg" }
+                ]
+            },
+            {  
+                "Name":"All",
+                "Items": [
+                    { "FirstName": "John", "Photo": "friend_thumbnail_27.jpg" },
+                    { "FirstName": "Pam", "Photo": "friend_thumbnail_31.jpg" },
+                    { "FirstName": "Cassy", "Photo": "friend_thumbnail_93.jpg" },
+                    { "FirstName": "Sussan", "Photo": "friend_thumbnail_75.jpg" }
+                ]
+            },
+        ]
+    }
+}

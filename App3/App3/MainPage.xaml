@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App3"
+             x:Class="App3.MainPage"
+             BackgroundColor="White"
+             Title="           Teste Centro">
+
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            
+            <Button Text="Track App" BackgroundColor="Aqua" Clicked="Button1_OnClicked"/>
+            
+            <Button Text="Crash App" BackgroundColor="Coral" Clicked="Button2_OnClicked"/>
+            
+            <Label x:Name="LabelCrash" Text="Crash? "/>
+
+            <!--<ListView ItemsSource="{Binding .}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="100"/>
+                                        <ColumnDefinition Width="50"/>
+                                        <ColumnDefinition Width="100"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Column="0" Text="{Binding Name}" TextColor="Black"></Label>
+                                    <Label Grid.Column="1" Text="{Binding Age}" TextColor="Black"></Label>
+                                    <Label Grid.Column="2" Text="{Binding Name}" TextColor="Black"></Label>
+
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>-->
+
+            <Label x:Name="Label55" Text="Test 2" HorizontalTextAlignment="Start" />
+
+        </StackLayout>
+
+    </ContentPage.Content>
+
+
+</ContentPage>

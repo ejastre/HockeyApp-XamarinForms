@@ -1,0 +1,40 @@
+﻿{
+  "MainPage.xaml": [
+    {
+      "Name": "ali",
+      "Age": 55,
+      "Length": 120,
+      "Photo": "icon.png"
+    },
+    {
+      "Name": "hassan",
+      "Age": 6,
+      "Length": 157,
+      "Photo": "icon.png"
+    },
+    {
+      "Name": "muhammad",
+      "Age": 7,
+      "Length": 170,
+      "Photo": "icon.png"
+    },
+    {
+      "Name": "muhammad",
+      "Age": 7,
+      "Length": 170,
+      "Photo": "icon.png"
+    },
+    {
+      "Name": "muhammad",
+      "Age": 7,
+      "Length": 170,
+      "Photo": "icon.png"
+    },
+    {
+      "Name": "muhammad",
+      "Age": 7,
+      "Length": 170,
+      "Photo": "icon.png"
+    }
+  ]
+}
